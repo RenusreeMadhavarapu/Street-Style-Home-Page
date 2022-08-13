@@ -1,0 +1,581 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+
+/* navbar section */
+nav.navbar-container{
+
+    display:flex;
+    justify-content:space-between;
+    margin:30px;
+    align-items:center;
+    font-family:'Orbitron';
+}
+img[alt="brand-logo"]{
+    width:100px;
+}
+
+.list{
+    display:flex;
+    list-style-type: none;
+}
+
+.list-item{
+
+    margin-right:50px;
+    font-size:20px;
+    font-weight:500;
+    cursor:pointer;
+    
+}
+.list-item:first-of-type{
+    border-bottom:2px solid #000;
+    font-weight:bolder;
+}
+
+.button-group{
+    display:flex;
+    align-items:center;
+
+    
+}
+
+button.nav-button{
+
+    width:150px;
+    height:40px;
+    border:3px solid #000;
+    background:transparent;
+    color:#a7a7a7;
+    border-radius:10px;
+    font-size:large;
+    margin-right:80px;
+    
+}
+.search-icon{
+    margin-right:30px;
+    cursor:pointer;
+}
+div.menu {
+    display:none;
+}
+/* media queries for navbar section */
+@media (max-width:955px){
+
+
+    .list{
+        display:none;
+    }
+
+    div.menu{
+        display:block;
+        font-size:30px;
+        cursor:pointer;
+    }
+    .logo{
+        display:flex;
+        align-items:center;
+    }
+    img[alt="brand-logo"]{
+        margin-left:350px;
+    }
+    nav.navbar-container{
+        margin-right:0px;
+        
+    }
+
+    button.nav-button{
+       display:none;
+        
+    }
+    .search-icon{
+        margin-right:50px;
+        cursor:pointer;
+    }
+}
+
+@media (max-width:815px){
+
+    img[alt="brand-logo"]{
+        margin-left:300px;
+    }
+
+}
+@media (max-width:735px){
+
+    img[alt="brand-logo"]{
+        margin-left:250px;
+    }
+
+}
+
+@media (max-width:655px){
+
+    img[alt="brand-logo"]{
+        margin-left:200px;
+    }
+
+}
+
+@media (max-width:570px){
+
+    img[alt="brand-logo"]{
+        margin-left:150px;
+    }
+
+}
+
+@media (max-width:495px){
+
+    img[alt="brand-logo"]{
+        margin-left:100px;
+    }
+
+}
+
+/* hero banner section */
+
+.hero-container{
+    display:flex;
+    margin-top:100px;
+    position:relative;
+    margin-bottom:10px;
+}
+img[alt="square-pattern"]{
+    width:400px;
+    position:absolute;
+    bottom:0%;
+    left:8%;
+}
+
+img[alt="person-hero-iamge"]{
+    width:400px;
+    position:relative;
+    left:10%;
+    bottom:10%;
+}
+img[alt="start-pattern"]{
+    position:absolute;
+    right:10%;
+    width:60px;
+    bottom:95%;
+}
+img[alt="globe-pattern" ]{
+    position:absolute;
+    right:47%;
+    width:60px;
+    bottom:100%;
+    cursor:pointer;
+
+}
+
+.hero-container-right{
+    margin-left:200px;
+}
+.hero-heading{
+
+    font-size:350%;
+    font-family:'Orbitron';
+}
+.hero-description{
+    font-family:'Poppins';
+    font-weight:350;
+    width:70%;
+    text-align:center;
+    font-size:15px;
+    margin-left:50px;
+
+}
+
+button.button-email{
+
+    width:200px;
+    border-radius:10px;
+    border:2px solid #000;
+    height:30px;
+    color:#303030;
+    background: transparent;
+    font-size:17px;
+    font-family:'Orbitron';
+    margin-top:50px;
+    margin-left:200px;
+    cursor:pointer;
+
+}
+button.button-join{
+
+    width:150px;
+    border-radius:10px;
+    border:none;
+    height:30px;
+    color:#fff;
+    background:#000;
+    font-size:17px;
+    font-family:'Orbitron';
+    margin-left:10px;
+    cursor:pointer;
+
+
+
+}
+
+img[alt="start-pattern1"]{
+
+    width:40px;
+    position:absolute;
+    bottom:12%;
+}
+
+.contact-heading{
+    color: #303030;
+    font-family:'Poppins';
+    font-size:20px;
+    font-weight:400;
+    margin-left:300px;
+    margin-top:80px;
+  
+
+
+}
+.icons{
+
+    margin-left:250px;
+
+}
+.icons>span{
+    margin-right:10px;
+    cursor:pointer;
+}
+/* media queries for hero banner section */
+@media (max-width:1365px){
+
+
+    .hero-heading{
+
+        font-size:300%;
+        
+    }
+
+
+    button.button-email{
+        
+        margin-left:150px;
+    
+    }
+
+    .contact-heading{
+
+        margin-left:200px;
+
+}
+
+.icons{
+
+    margin-left:180px;
+
+}
+}
+
+@media (max-width:1260px){
+
+
+    img[alt="person-hero-iamge"]{
+        width:350px;
+        bottom:0%;
+    }
+
+    img[alt="square-pattern"]{
+        width:350px;
+        bottom:5%;
+    
+    }
+
+    .hero-container-right{
+        margin-left:150px;
+    }
+
+
+}
+
+@media (max-width:1175px){
+
+
+    img[alt="start-pattern"]{
+        
+        width:40px;
+       
+    }
+    img[alt="globe-pattern" ]{
+        
+        width:40px;
+        
+    
+    }
+    img[alt="square-pattern"]{
+      
+     top:30%;
+    
+    }
+
+   
+
+    .hero-heading{
+
+        font-size:250%;
+        
+    }
+
+    .hero-description{
+        
+        width:70%;
+        font-size:13px;
+        margin-left:50px;
+    
+    }
+
+    button.button-email{
+
+        width:150px;
+        border-radius:10px;
+        height:30px;
+        font-size:14px;
+        margin-top:50px;
+        margin-left:150px;
+    
+    }
+    button.button-join{
+    
+        width:100px;
+        border-radius:10px; 
+        font-size:14px;
+    
+    
+    }
+
+
+    .contact-heading{
+
+        font-size:17px;
+        font-weight:400;
+        margin-left:200px;
+        margin-top:50px;
+      
+    
+    
+    }
+    .icons{
+    
+        margin-left:180px;
+    
+    }
+    img[alt="facebook-icon"]{
+        width:30px;
+    }
+    img[alt="messenger-icon"]{
+        width:30px;
+    }
+
+    img[alt="instagram-icon"]{
+
+        width:30px;
+    }
+    img[ alt="whatsapp-icon"]{
+        width:30px;
+    }
+    
+
+
+}
+
+@media (max-width:1060px){
+
+    .hero-container-right{
+        margin-left:100px;
+    }
+
+
+}
+
+@media (max-width:1000px){
+
+    img[alt="person-hero-iamge"]{
+        width:300px;
+        
+    }
+
+    img[alt="square-pattern"]{
+        width:300px;
+       
+    
+    }
+}
+
+    @media (max-width:945px){
+
+
+        .hero-container{
+            flex-direction:column;
+        }
+
+        img[alt="square-pattern"]{
+            
+            top:12%;
+            left:30%;
+        
+        }
+
+        img[alt="start-pattern"]{
+            bottom:30%;
+
+        }
+        img[alt="globe-pattern" ]{
+            bottom:43%;
+            margin-right:50px;
+        }
+
+        img[alt="person-hero-iamge"]{
+           left:25%;
+           
+            
+        }
+        .hero-container-right{
+            margin-top:130px;
+            margin-left:130px;
+            margin-bottom:30px;
+        }
+        
+
+        
+    }
+
+
+
+@media (max-width:835px){
+    img[alt="person-hero-iamge"]{
+        left:20%;
+        
+         
+     }
+     img[alt="square-pattern"]{
+            
+        
+        left:25%;
+    
+    }
+
+    .hero-container-right{
+        
+        margin-left:100px;
+        
+    }
+    
+}
+
+    @media (max-width:735px){
+        img[alt="person-hero-iamge"]{
+            left:12%;
+            
+             
+         }
+         img[alt="square-pattern"]{
+                
+            
+            left:20%;
+        
+        }
+
+        .hero-container-right{
+        
+            margin-left:20px;
+            
+        }
+    }
+
+    @media (max-width:580px){
+
+        .hero-heading{
+            font-size:180%;
+        }
+
+        .hero-description{
+            font-size:10px;
+            margin-left:30px;
+        }
+
+        img[alt="start-pattern"]{
+            width:30px;
+
+        }
+        img[alt="globe-pattern" ]{
+           width:30px;
+           
+        }
+
+        img[alt="start-pattern1"]{
+            width:30px;
+
+        }
+
+        button.button-email{
+
+            width:120px;
+            font-size:13px;
+            margin-left:80px;
+        
+        }
+        button.button-join{
+        
+            width:90px;
+            font-size:13px;
+        
+        
+        }
+
+        .contact-heading{
+
+            margin-left:100px;
+
+          
+        
+        
+        }
+        .icons{
+        
+            margin-left:80px;
+        
+        }
+
+
+
+    }
+
+    @media (max-width:470px){
+
+        img[alt="globe-pattern" ]{
+          bottom:46%;
+            
+         }
+ 
+
+    }
+        @media (max-width:460px){
+            img[alt="person-hero-iamge"]{
+                width:250px;
+                left:12%;
+                
+                 
+             }
+             img[alt="square-pattern"]{
+                    
+                width:250px;
+                left:20%;
+                top:12%;
+            
+            }
+
+
+            
+
+}
