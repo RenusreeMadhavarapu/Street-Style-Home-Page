@@ -554,7 +554,7 @@ img[alt="start-pattern1"]{
     @media (max-width:470px){
 
         img[alt="globe-pattern" ]{
-          bottom:46%;
+          bottom:48%;
             
          }
  
@@ -572,6 +572,13 @@ img[alt="start-pattern1"]{
                 width:250px;
                 left:20%;
                 top:12%;
+            
+            }
+
+            button.button-email{
+
+               
+                margin-left:60px;
             
             }
 
