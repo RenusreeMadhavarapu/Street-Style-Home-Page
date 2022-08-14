@@ -135,6 +135,14 @@ div.menu {
 
 }
 
+@media (max-width:450px){
+
+    img[alt="brand-logo"]{
+        margin-left:70px;
+    }
+
+}
+
 /* hero banner section */
 
 .hero-container{
